@@ -1,0 +1,72 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer / wheel metadata
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+
+# Output / artifacts
+runs/
+output/
+outputs/
+results/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# CSV logs generated at runtime
+vehicle_compliance_log.csv
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# Cache / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Roboflow / dataset exports (optional)
+datasets/
+data/
